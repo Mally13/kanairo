@@ -1,0 +1,14 @@
+.hero-wrapper {
+    margin: auto;
+    height: 680px;
+    padding: 56px;
+    padding-top: 180px;
+}
+.hero-bg {
+    margin-top: -100px;
+    background: url(../images/hero.jpg);
+    background-color: rgba(23, 36, 50, 0.8);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+} 

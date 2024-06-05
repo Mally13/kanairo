@@ -1,0 +1,124 @@
+.flight-wrapper {
+    height: 280px;
+    width: 85%;
+    margin: auto;
+    border-radius: 48px;
+    justify-self: center;
+    background-color: rgba(23, 36, 50, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+}
+.flight-type {
+    max-width: 1170px;
+    width: 90%;
+    justify-self: center;
+    align-self: center;
+    padding: 16px;
+    margin-top: -42px;
+    margin-bottom: 32px;
+}
+.flight-search {
+    max-width: 1170px;
+    width: 90%;
+    justify-self: center;
+    border-radius: 72px;
+    background-color: transparent;
+    height: 100px;
+    align-self: center;
+    display: flex;
+}
+.from {
+    background-color: #ffffff;
+    padding: 2px 4px;
+    width: 25%;
+    justify-content: space-between;
+    border-radius: 72px 0 0 72px;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #D9D9D9;
+}
+.to {
+    background-color: #ffffff;
+    padding: 2px 4px;
+    width: 25%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #D9D9D9;
+}
+.depart {
+    background-color: #ffffff;
+    padding: 2px 4px;
+    width: 10%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #D9D9D9;
+}
+.return-d {
+    background-color: #ffffff;
+    padding: 2px 4px;
+    width: 10%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #D9D9D9;
+}
+.travellers {
+    background-color: #ffffff;
+    padding: 2px 4px;
+    width: 22%;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+.search {
+    
+    width: 8%;
+    
+    border-radius: 0 72px 72px 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #C1721B;
+    background-image: url(../images/search.png.png);
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.flight-search h4 {
+    font-size: 12px;
+    font-weight: 600;
+    margin: 8px 18px 16px 18px;
+}
+.flight-search p {
+    margin-left: 18px;
+    font-size: 12px;
+}
+.react-datepicker-ignore-onclickoutside {
+    padding: 10px 10px 0 10px; 
+    width: 100%;
+    border:0;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color:#172432;
+    position: absolute;
+    top:-24px;
+}
+
+.react-datepicker__input-container input{
+    padding: 10px 10px 0 12px; 
+    width: 100%;
+    border:0;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color:#172432;
+    position: absolute;
+    top:-24px;
+    
+}
+.react-datepicker-popper {
+    top:40px !important;
+}

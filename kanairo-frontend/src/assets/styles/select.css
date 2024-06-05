@@ -1,0 +1,28 @@
+.custom-select {
+    display: flex;
+    flex-direction: column;
+}
+.selected-option {
+    margin-left: 18px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color:#172432;
+}
+.placeholder {
+    margin-left: 18px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #D9D9D9;
+}
+.options {
+    height: 320px;
+    margin-top: 44px;
+    margin-left: 8px;
+    width: 100%;
+    background-color: white;
+    border-radius: 16px;
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+}

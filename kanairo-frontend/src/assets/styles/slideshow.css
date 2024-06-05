@@ -1,0 +1,75 @@
+.slideshow-wrapper {
+    margin: 64px 40px;
+}
+.destinations {
+    height: 480px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    gap: 32px;
+}
+.blog-d {
+  height: 806px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  gap: 32px;
+}
+.slide {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-left: 32px;
+}
+.slide img {
+    height: auto;
+    width: 100%;
+}
+
+.caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    color: white;
+  }
+  .caption h3 {
+    color: white;
+    text-transform: capitalize;
+  }
+  .slideshow-text h2 {
+    text-transform: capitalize;
+  }
+  .offers {
+    align-items: flex-end;
+  }
+  .slideshow-text p {
+    color: #767E86;
+  }
+  .blog {
+    display: flex;
+    flex-direction: row;
+    gap:32px;
+    align-items: center;
+  }
+  .post {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap:24px;
+    justify-content: center;
+    /* align-items: center; */
+  }
+  .blog img {
+    height: 100%;
+    width: auto;
+}
+  .read-more {
+    color:#C1721B;
+  }
+  .post p {
+    line-height: 2.5;
+    font-size: 16px;
+    text-align: justify;
+  }
+  .post h2 {
+    text-transform: capitalize;
+  }

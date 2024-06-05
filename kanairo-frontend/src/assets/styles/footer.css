@@ -1,0 +1,117 @@
+.newsletter {
+    border-radius: 24px;
+    position: absolute;
+    padding: 32px 48px;
+    left: 400px;
+    right: 400px;
+    align-self: center;
+    display: flex;
+    top: -60px;
+    background-color: white;
+    box-shadow: 0 0 2px 4px rgba(0, 0, 0, 0.15);
+    gap:24px;
+    justify-content: space-between;
+}
+.newsletter h4 {
+    text-transform: capitalize;
+    color: #767E86;
+    font-size: 32px;
+}
+.newsletter-form p {
+    color: #767E86;
+}
+.subscribe {
+    display: flex;
+    gap:16px;
+    justify-content: space-between;
+}
+.subscribe input {
+    padding: 8px;
+    border-radius: 8px;
+}
+.email-sub {
+    border: 0.5px solid rgba(0, 0, 0, 0.1);
+    background-color: rgba(0, 0, 0, 0.04);
+}
+.button-sub {
+    background-color: #C1721B;
+    outline: none;
+    border: 0px;
+    border-radius: 8px;
+    color: white;
+    width: 100px;
+}
+.footer {
+    background-color: #172432;
+    margin-top: 60px;
+    display: flex;
+    position: relative;
+}
+.footer-sections {
+    display: flex;
+    flex-direction: row;
+    padding:40px 180px;
+}
+.logo-copy {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.logo-copy img {
+    width:200px
+}
+.logo-copy p{
+    color: white;
+    font-size: 12px;
+}
+.center-footer {
+    display: flex;
+    flex-direction: row;
+    gap:80px;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+.menu-footer {
+    margin-top: 80px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+    gap:18px;
+}
+.menu-footer h4 {
+    color: white;
+    text-transform: capitalize;
+}
+.menu-footer ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 16px;
+}
+.menu-footer ul li {
+    margin-bottom: 16px;
+}
+.menu-footer ul li{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+.socials-footer {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+.socials-footer h4 {
+    color: white;
+    text-transform: capitalize;
+}
+.socials-f {
+    display: flex;
+    gap: 32px;
+    justify-content: space-between;
+}
+.socials-f img {
+    width: 32px;
+    height: 32px;
+}

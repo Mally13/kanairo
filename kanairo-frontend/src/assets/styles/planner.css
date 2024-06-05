@@ -1,0 +1,38 @@
+.planner-wrapper {
+    margin: 64px 40px;
+}
+.planner {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+.planner-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+}
+.planner-text h2 {
+    text-transform: capitalize;
+}
+.planner-text p {
+    color: #767E86;
+}
+.text-button {
+    position: relative;
+    border-radius: 16px;
+    background-color: #C1721B;
+    display: flex;
+    justify-content: center;
+    height: 56px;
+    align-items: center;
+    width: 180px;
+}
+
+.text-button p {
+    color: white;
+    text-align: center;
+}
+.planner-cards {
+    width: 75%;
+}

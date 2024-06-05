@@ -1,0 +1,20 @@
+.custom-radio {
+    display: flex;
+    flex-direction: row;
+    align-items: left; 
+  }
+  
+  .custom-radio input {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+  }
+  .custom-radio label {
+    padding: 3px 6px;
+    text-align: center;
+    border-radius: 16px;
+    font-size: 10px;
+    margin-left: 16px;
+    font-weight: 500;
+  }
+  
