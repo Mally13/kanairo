@@ -3,10 +3,14 @@
     height: 680px;
     padding: 56px;
     padding-top: 180px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
 }
 .hero-bg {
     margin-top: -100px;
-    background: url(../images/hero.jpg);
+    /* background: url(../images/hero.jpg); */
     background-color: rgba(23, 36, 50, 0.8);
     background-size: cover;
     background-repeat: no-repeat;

@@ -56,7 +56,7 @@ const Header = () => {
         
         {isOpen && <ul style={styles.navList}>
           <li style={styles.listitem}><span style={styles.listitema}>Explore</span></li>
-          <li style={styles.listitem}><span style={styles.listitema}>Become an affiliate</span></li>
+         {/* <li style={styles.listitem}><span style={styles.listitema}>Become an affiliate</span></li> */}
           <li style={styles.listitem} onClick={toggleSignUpPopup}><span style={styles.listitema}>Sign Up</span></li>
           <li style={styles.listitem} onClick={toggleSignInPopup}><span style={styles.listitema}>Log In</span></li>
         </ul>}
@@ -95,7 +95,7 @@ const Header = () => {
 
 const styles = {
   header: {
-    backgroundImage: 'radial-gradient(circle, #3D627B, #1D445B)',
+    backgroundImage: 'radial-gradient(circle, #007A37, #00431E)',
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
@@ -113,8 +113,8 @@ const styles = {
     zIndex: 999999
   },
   logoImage: {
-    width: '150px',
-    height: '150px',
+    width: '200px',
+    height: '200px',
     zIndex: 999999,
     overflow: 'hidden'
   },
@@ -124,6 +124,7 @@ const styles = {
     marginRight: "40px"
   },
   navList: {
+    width:'200px',
     listStyle: 'none',
     padding: '32px',
     right: '80px',
